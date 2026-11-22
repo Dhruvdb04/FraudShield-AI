@@ -1,0 +1,10 @@
+# Pinned to the versions that produced models/metrics.json.
+fastapi==0.162.4
+uvicorn==0.54.0
+sqlalchemy==2.1.8
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.5.4
+joblib==1.6.0
+PyJWT==2.15.1
+pytest==9.2.0
