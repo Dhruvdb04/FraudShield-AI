@@ -14,7 +14,7 @@ The password is hashed with PBKDF2-HMAC-SHA256 before it is stored. The API issu
 From the repo root, in PowerShell:
 
 ```powershell
-Set-Location "C:\Users\raj shekhar\Downloads\FraudShield-AI"
+Set-Location "C:\Users\dhruv\Downloads\FraudShield-AI"
 py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\Activate.ps1
@@ -39,7 +39,7 @@ It also seeds the analyst and about 40 already-scored rows so the desk is not em
 In a second PowerShell window:
 
 ```powershell
-Set-Location "C:\Users\raj shekhar\Downloads\FraudShield-AI\frontend"
+Set-Location "C:\Users\dhruv\Downloads\FraudShield-AI\frontend"
 npm install
 npm run dev
 ```
